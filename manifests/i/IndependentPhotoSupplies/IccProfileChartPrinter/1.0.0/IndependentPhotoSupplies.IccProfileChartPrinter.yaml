@@ -4,7 +4,5 @@
 PackageIdentifier: IndependentPhotoSupplies.IccProfileChartPrinter
 PackageVersion: 1.0.0
 DefaultLocale: en-US
-ReleaseNotes: |
-  Initial release of ICC Profile Chart Printer.
 ManifestType: version
 ManifestVersion: 1.12.0

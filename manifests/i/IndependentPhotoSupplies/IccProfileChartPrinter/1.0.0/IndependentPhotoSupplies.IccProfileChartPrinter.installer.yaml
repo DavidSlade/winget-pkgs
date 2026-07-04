@@ -5,17 +5,13 @@ PackageIdentifier: IndependentPhotoSupplies.IccProfileChartPrinter
 PackageVersion: 1.0.0
 InstallerLocale: en-US
 InstallerType: msi
+InstallerSwitches:
+  Silent: /quiet
+  SilentWithProgress: /passive
+ProductCode: '{1C1EBA0C-A09C-47FC-9F90-F3874AD00C6B}'
 Installers:
-  - Architecture: x64
-    InstallerUrl: https://incontrolphoto.com/download/IccProfileChartPrinterInstaller.msi
-    InstallerSha256: B2B5BBC0B477CA24613ED6DFDCC6BE5A935340C8906E207F358A38C7D44411EE
-    ProductCode: '{1C1EBA0C-A09C-47FC-9F90-F3874AD00C6B}'
-    InstallerSwitches:
-     Silent: /quiet
-     SilentWithProgress: /passive
-    AppsAndFeaturesEntries:
-     - DisplayName: Icc Profile Chart Printer
-       Publisher: Independent Photo Supplies   
+- Architecture: x64
+  InstallerUrl: https://incontrolphoto.com/download/IccProfileChartPrinterInstaller.msi
+  InstallerSha256: B2B5BBC0B477CA24613ED6DFDCC6BE5A935340C8906E207F358A38C7D44411EE
 ManifestType: installer
 ManifestVersion: 1.12.0
-
